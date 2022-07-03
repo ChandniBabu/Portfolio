@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.head1{
+    width: 35%;
+    float: left;
+    
+
+
+}
+
+.head2{
+    width: 60%;
+    float: right;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    float: left;
+    
+    
+  }
+  li{
+    
+    float: left;
+    margin: 10px;
+    color: aliceblue;
+    
+  }
+  li a{
+    text-decoration: none;
+    text-align: end;
+    color: aliceblue;
+  }
+  .head{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(51, 53, 52);
+    position: fixed;
+    top: 0;
+
+
+  }
+  
+  .body1{
+
+  }
+
+  .head2 a:hover{
+    background-color: white;
+    color: black;
+  }
+
+  .home{
+    display: flex;
+    flex-direction: column;
+  }
+  .home::before{
+    content: "";
+    position:absolute;
+    top:0;
+    right:0;
+  }
