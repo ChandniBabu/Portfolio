@@ -61,7 +61,7 @@ ul {
   }
   .home{
     content: "";
-    position:absolute;
+    position:relative;
     background-image: url(background.jpg);
     top:0;
     right:0;
@@ -81,7 +81,7 @@ ul {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-top:20%;
+    margin-top:3%;
   
   }
 
